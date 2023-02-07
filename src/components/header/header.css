@@ -1,0 +1,56 @@
+/* Header */
+
+.header-main {
+  min-height: 70rem;
+  background: url(../../../public/assets/group-people.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 7px solid #e1ecff;
+}
+
+.sign-in {
+  width: 16rem;
+  height: 4.8rem;
+  background-color: white !important;
+  border-radius: 15px;
+  border: none;
+  color: #3580ff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 86rem;
+  height: 16.8rem;
+  font-size: 48px;
+  color: white;
+  background: rgba(50, 105, 249, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+  margin-top: 26.2rem;
+  margin-left: 8.4rem;
+}
+
+.intro-text {
+  margin: 0;
+  margin-left: 2rem;
+  line-height: 6rem;
+  font-weight: 600;
+  font-size: 68px;
+}
+
+.download-app {
+  width: fit-content;
+  position: relative;
+  top: 70px;
+  left: 122px;
+}
+
+.store-icon {
+  width: 16.6rem;
+  margin: 10px;
+}

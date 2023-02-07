@@ -1,0 +1,61 @@
+/* Features CSS */
+.features-heading {
+  display: flex;
+}
+
+.features-heading h1 {
+  margin-left: 120px;
+  margin-top: 100px;
+  margin-bottom: 64px;
+}
+
+.features-heading h1 span {
+  font-family: "Glory" !important;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.dark-text {
+  color: #32236f;
+}
+
+.blue-text {
+  color: #6a49f2;
+}
+
+.features-main {
+  display: flex;
+}
+
+.features-image img {
+  width: 112%;
+}
+
+.features-list-wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 60px;
+  margin: 100px;
+  margin-left: 120px;
+}
+
+.feature-details {
+  display: flex;
+  max-width: 440px;
+}
+
+.feature-title {
+  font-weight: 600;
+  color: #2f2c4a;
+}
+
+.feature-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.feature-para {
+  color: #656464;
+  font-style: italic;
+  line-height: 1.6rem;
+}
