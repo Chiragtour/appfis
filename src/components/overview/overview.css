@@ -1,0 +1,123 @@
+.how-it-works-wrap {
+  height: 500px;
+  background: url(../../../public/assets/working.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 4px 2px rgb(0 0 0 / 30%);
+}
+
+.how-it-works {
+  margin: 0;
+  padding-top: 80px;
+  font-family: "Glory" !important;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+}
+
+.download-steps {
+  margin: auto;
+  margin-top: 4rem;
+  width: 84vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steps {
+  display: flex;
+  gap: 24px;
+}
+
+.steps .index {
+  margin-block: 1.6rem;
+  color: #3580ff;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 0px 1px 0px white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.step-text {
+  color: white;
+}
+
+.step-title {
+  font-weight: 500;
+}
+
+.step-desc {
+  font-weight: 300;
+  font-size: 1.16rem;
+  font-style: italic;
+  margin-block: 12px;
+}
+
+.download-app-centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.store-image {
+  margin: 8px;
+  height: 66px;
+}
+
+.functionality {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 80vh;
+}
+
+.functionality-visuals {
+  position: relative;
+}
+
+.functionality-bg-design {
+  width: 800px;
+  height: 712px;
+  background: rgba(11, 63, 151, 0.3);
+  border-radius: 0px 0px 60px 0px;
+}
+
+.functionality-image {
+  position: absolute;
+  top: 80px;
+  left: 132px;
+  max-width: 800px;
+}
+
+.functionality-text {
+  margin-block: 160px;
+  margin-left: 240px;
+  margin-right: 40px;
+}
+
+.functionality-text-head {
+  margin-top: 0;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
+  color: #32236f;
+}
+
+.functionality-button {
+  background: #3580ff;
+  border-radius: 15px;
+  width: 288px;
+  height: 80px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  outline: none;
+  margin-top: 44px;
+}

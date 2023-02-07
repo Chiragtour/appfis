@@ -4,8 +4,8 @@ import { features } from "./featureList";
 function FeatureItems() {
   return (
     <div className="features-list-wrap">
-      {features.map((feature) => (
-        <div className="feature-details">
+      {features.map((feature, i) => (
+        <div className="feature-details" key={i}>
           <img
             className="feature-icon"
             src={feature.icon}
