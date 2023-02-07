@@ -1,4 +1,9 @@
 /* Features CSS */
+.features-main {
+  display: flex;
+  justify-content: space-around;
+}
+
 .features-heading {
   display: flex;
 }
@@ -21,10 +26,6 @@
 
 .blue-text {
   color: #6a49f2;
-}
-
-.features-main {
-  display: flex;
 }
 
 .features-image img {

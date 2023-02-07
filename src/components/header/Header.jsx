@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import "./header.css";
+import Download from "../common/Download";
 
 function Header() {
   return (
@@ -12,18 +13,7 @@ function Header() {
           Sales, Contracts and billing in one app
         </h3>
       </div>
-      <div className="download-app">
-        <img
-          className="store-icon"
-          src="/assets/icons/download/app_store.png"
-          alt="app store"
-        />
-        <img
-          className="store-icon"
-          src="/assets/icons/download/play_store.png"
-          alt="play store"
-        />
-      </div>
+      <Download parentClass={"download-app"} imgClass={"store-icon"} />
     </div>
   );
 }
