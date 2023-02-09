@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
+import NavbarComponent from "../navbar/Navbar";
 import "./header.css";
 import Download from "../common/Download";
 
-function Header() {
+function Header({ homeRef }) {
   return (
-    <div className="header-main">
-      <Navbar />
+    <div className="header-main" ref={homeRef}>
       <div className="header-content">
         <h3 className="intro-text">
           Manage your clients, <br />

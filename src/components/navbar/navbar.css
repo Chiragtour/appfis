@@ -1,26 +1,61 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3.4rem 9.4rem;
+.navbar-position {
+  z-index: 99;
+  position: fixed;
+  top: 2.4rem;
+  padding-inline: 5.2%;
+  transition: all 0.5s ease !important;
 }
 
-.nav-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 68px;
-
-  width: 375px;
-  height: 25px;
-  list-style: none;
+.nav-menu-container {
+  width: 28vw;
+  margin-inline-start: 4vw;
 }
 
-.nav-link {
-  text-decoration: none;
+.menu-title {
   color: white;
   font-size: 20px;
-  line-height: 23px;
   font-weight: 500;
+  margin: 16px;
+}
+
+.blured-dark-bg {
+  background-color: rgba(0, 0, 0, 0.496) !important;
+}
+
+@media screen and (max-width: 1280px) {
+  #basic-navbar-nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+  .nav-menu-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-position {
+    top: 0 !important;
+    background: rgb(255, 255, 255);
+    padding-inline: 0 !important;
+  }
+  .nav-menu-container {
+    margin: 0 !important;
+  }
+  .menu-title {
+    color: black !important;
+  }
+  .navbar-toggler-icon {
+    background-image: url(../../../public/assets/menu-toggle.png) !important;
+  }
+  .logo-normal {
+    display: none !important;
+  }
+  .logo-sm {
+    display: inline-block !important;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+    box-shadow: none !important;
+  }
 }

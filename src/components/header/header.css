@@ -1,56 +1,195 @@
 /* Header */
 
 .header-main {
-  min-height: 70rem;
-  background: url(../../../public/assets/group-people.png);
+  background-image: url(../../../public/assets/group-people.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-bottom: 7px solid #e1ecff;
+  padding-top: 33%;
+}
+
+.group-people-img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -99;
 }
 
 .sign-in {
-  width: 16rem;
-  height: 4.8rem;
+  width: 20%;
+  margin-inline-start: 12vw;
+  height: 3em;
   background-color: white !important;
   border-radius: 15px;
-  border: none;
-  color: #3580ff;
+  color: #3580ff !important;
   font-size: 1.6rem;
-  font-weight: 600;
-  cursor: pointer;
+  font-weight: 600 !important;
+  transition: all 0.5s ease;
 }
 
 .header-content {
   display: flex;
   align-items: center;
-  max-width: 86rem;
-  height: 16.8rem;
-  font-size: 48px;
+  max-width: 74vw;
+  height: 16rem;
   color: white;
   background: rgba(50, 105, 249, 0.12);
   border: 2px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(12.5px);
   border-radius: 20px;
-  margin-top: 26.2rem;
-  margin-left: 8.4rem;
+  margin-left: 7vw;
 }
 
 .intro-text {
   margin: 0;
-  margin-left: 2rem;
-  line-height: 6rem;
+  line-height: 5rem;
   font-weight: 600;
-  font-size: 68px;
+  font-size: 4.4rem;
+  padding: 2%;
+  padding-right: 0 !important;
 }
 
 .download-app {
   width: fit-content;
-  position: relative;
-  top: 70px;
-  left: 122px;
+  margin-left: 6%;
+  margin-block: 3.4%;
 }
 
 .store-icon {
-  width: 16.6rem;
-  margin: 10px;
+  width: 20vw;
+  margin: 1vw;
+}
+
+.logo-sm {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .sign-in {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .sign-in {
+    font-size: 1rem;
+    margin-inline-start: 6vw;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .header-content {
+    height: 28vh;
+  }
+
+  .intro-text {
+    line-height: 8vh;
+    font-size: 5.4vh;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header-main {
+    background-size: 114%;
+    border-bottom: none;
+  }
+  .header-content {
+    position: relative;
+    top: -16vh;
+    max-width: 88vw;
+  }
+  .sign-in {
+    margin: 0 !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+  }
+  .store-icon {
+    width: 32vw;
+  }
+  .download-app {
+    position: relative;
+    top: -12vh;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .logo-normal {
+    display: none;
+  }
+  .logo-sm {
+    display: inline-block;
+  }
+  .header-content {
+    top: -12vh;
+    height: 24vh;
+  }
+  .intro-text {
+    line-height: 6vh;
+    font-size: 4vh;
+    padding: 2vh !important;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .header-content {
+    top: -8vh;
+    height: 20vh;
+  }
+  .download-app {
+    position: relative;
+    top: -8vh;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .header-main {
+    padding-top: 54%;
+  }
+  .header-content {
+    top: -16vh;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+  }
+  .download-app {
+    position: relative;
+    top: -14vh;
+  }
+  .intro-text {
+    line-height: 4vh;
+    font-size: 3vh;
+    padding: 1vh !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header-main {
+    padding-top: 60%;
+  }
+  .header-content {
+    height: 16vh;
+    backdrop-filter: blur(6px);
+  }
+  .intro-text {
+    line-height: 3.6vh;
+    font-size: 2.8vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header-main {
+    padding-top: 62%;
+  }
+
+  .header-content {
+    top: -12vh;
+  }
+  .download-app {
+    top: -12vh;
+  }
+
+  .intro-text {
+    line-height: 3.4vh;
+    font-size: 2.6vh;
+  }
 }
