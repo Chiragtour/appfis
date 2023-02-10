@@ -19,7 +19,7 @@ function NavbarComponent({ refs }) {
     <Navbar
       expand="lg"
       variant="dark"
-      bg={scroll > 600 && "dark blured-dark-bg"}
+      bg={scroll > 480 && window.innerWidth > 991 && "dark transparent-dark-bg"}
       className={`navbar-position ${scroll > 60 && "top-0"} w-100`}
     >
       <Navbar.Brand
