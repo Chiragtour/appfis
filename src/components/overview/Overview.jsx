@@ -2,6 +2,7 @@ import React from "react";
 import "./overview.css";
 import Download from "../common/Download";
 import { steps } from "./steps";
+import Functionality from "./Functionality";
 
 function Overview({ overviewRef }) {
   return (
@@ -24,56 +25,7 @@ function Overview({ overviewRef }) {
           imgClass={"store-image"}
         />
       </div>
-      <div className="functionality-scope">
-        <div className="functionality">
-          <div className="functionality-visuals">
-            <div className="functionality-bg-design"></div>
-            <img
-              className="functionality-image"
-              src="/assets/image_1.png"
-              alt=""
-            />
-          </div>
-          <div className="functionality-text">
-            <h1 className="functionality-text-head">
-              Design your documents & invoices with your logo and info
-            </h1>
-            <button className="functionality-button">Sign in</button>
-          </div>
-        </div>
-        <div className="functionality">
-          <div className="functionality-visuals">
-            <div className="functionality-bg-design"></div>
-            <img
-              className="functionality-image"
-              src="/assets/image_1.png"
-              alt=""
-            />
-          </div>
-          <div className="functionality-text">
-            <h1 className="functionality-text-head">
-              Design your documents & invoices with your logo and info
-            </h1>
-            <button className="functionality-button">Sign in</button>
-          </div>
-        </div>
-        <div className="functionality">
-          <div className="functionality-visuals">
-            <div className="functionality-bg-design"></div>
-            <img
-              className="functionality-image"
-              src="/assets/image_1.png"
-              alt=""
-            />
-          </div>
-          <div className="functionality-text">
-            <h1 className="functionality-text-head">
-              Design your documents & invoices with your logo and info
-            </h1>
-            <button className="functionality-button">Sign in</button>
-          </div>
-        </div>
-      </div>
+      <Functionality />
     </div>
   );
 }

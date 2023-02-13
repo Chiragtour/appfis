@@ -16,7 +16,7 @@ function App() {
       <NavbarComponent refs={{ featuresRef, homeRef, overviewRef }} />
       <Header homeRef={homeRef} />
       <Features featuresRef={featuresRef} />
-      {/* <Overview overviewRef={overviewRef} /> */}
+      <Overview overviewRef={overviewRef} />
     </>
   );
 }

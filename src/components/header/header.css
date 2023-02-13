@@ -160,19 +160,9 @@
     font-size: 3vh;
     padding: 1vh !important;
   }
-}
-
-@media screen and (max-width: 420px) {
-  .header-main {
-    padding-top: 60%;
-  }
-  .header-content {
-    height: 16vh;
-    backdrop-filter: blur(6px);
-  }
-  .intro-text {
-    line-height: 3.6vh;
-    font-size: 2.8vh;
+  .sign-in {
+    font-size: 3vw;
+    padding: 0;
   }
 }
 
@@ -180,14 +170,14 @@
   .header-main {
     padding-top: 62%;
   }
-
   .header-content {
     top: -12vh;
+    height: 16vh;
+    backdrop-filter: blur(6px);
   }
   .download-app {
     top: -12vh;
   }
-
   .intro-text {
     line-height: 3.4vh;
     font-size: 2.6vh;

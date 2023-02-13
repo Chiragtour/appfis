@@ -9,6 +9,6 @@ export const steps = [
   },
   {
     title: "It's done, enjoy the app",
-    description: "Get most amazing app experience, Explore and shate the app",
+    description: "Get most amazing app experience, Explore and share the app",
   },
 ];

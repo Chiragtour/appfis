@@ -1,0 +1,73 @@
+.functionality-scope {
+  display: flex;
+  flex-direction: column;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.functionality {
+  display: flex;
+  justify-content: space-between;
+}
+
+.functionality-visuals {
+  position: relative;
+}
+
+.functionality-bg-design {
+  width: 800px;
+  height: 662px;
+  background: rgba(11, 63, 151, 0.3);
+  border-radius: 0px 0px 60px 0px;
+}
+
+.functionality-bg-design.rtl {
+  border-radius: 0px 0px 0px 60px;
+}
+
+.functionality-image {
+  position: absolute;
+  top: 64px;
+  left: 132px;
+  max-width: 100%;
+}
+
+.functionality-image.rtl {
+  right: 132px;
+}
+
+.functionality-text {
+  margin-block: 6.64vw;
+  margin-left: 13vw;
+  margin-right: 7.4vw;
+}
+
+.functionality-text.rtl {
+  margin-left: 7.4vw;
+  margin-right: 13vw;
+  text-align: left;
+}
+
+.functionality-text-head {
+  margin-top: 0;
+  font-size: 3.25vw;
+  line-height: 72px;
+  font-weight: 500;
+  color: #32236f;
+}
+
+.functionality-button {
+  background: #3580ff;
+  border-radius: 15px;
+  width: 288px;
+  height: 80px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  outline: none;
+  margin-top: 44px;
+}
