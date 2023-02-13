@@ -17,7 +17,7 @@ function Features({ featuresRef }) {
       </div>
       <div className="features-main">
         <div className="features-image">
-          <img src="/assets/features.png" alt="features" />
+          <img src={`/assets/features-mobile.png`} alt="features" />
         </div>
         <FeatureItems />
       </div>
