@@ -8,38 +8,36 @@
 
 .how-it-works {
   margin: 0;
-  /* padding-top: 80px; */
+  padding-block: 20px;
   font-family: "Glory" !important;
   color: white;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 3.76vw;
   text-align: center;
 }
 
 .download-steps {
-  margin: auto;
-  height: 240px;
-  width: 84vw;
+  height: 8vw;
+  width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 4vw;
 }
 
 .steps {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .steps .index {
-  margin-block: 1.6rem;
   color: #3580ff;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 1.84vw;
+  height: 1.84vw;
   background-color: white;
-  border-radius: 6px;
+  border-radius: 0.28vw;
   box-shadow: 0px 0px 1px 0px white;
-  font-size: 24px;
+  font-size: 1.25vw;
   text-align: center;
   font-weight: 600;
 }
@@ -50,11 +48,12 @@
 
 .step-title {
   font-weight: 500;
+  font-size: 1.6vw;
 }
 
 .step-desc {
   font-weight: 300;
-  font-size: 1.16rem;
+  font-size: 1vw;
   font-style: italic;
   margin-block: 12px;
 }
@@ -62,10 +61,90 @@
 .download-app-centered {
   display: flex;
   justify-content: center;
-  height: 160px;
+  height: 134px;
+  align-items: center;
 }
 
 .store-image {
-  height: 66px;
+  height: 4.5vw;
   margin: 8px;
+}
+
+@media screen and (max-width: 1360px) {
+  .steps .index {
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.46vw;
+  }
+  .step-title {
+    font-size: 1.8vw;
+  }
+  .step-desc {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .step-text {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .how-it-works-wrap {
+    background: url(../../../public/assets/working-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 4px 2px rgb(0 0 0 / 30%);
+  }
+
+  .step-text {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .how-it-works-wrap {
+    margin-top: 4.8vh;
+  }
+
+  .how-it-works {
+    font-size: 6.4vw;
+  }
+
+  .download-steps {
+    flex-direction: column;
+    height: 40vh;
+    width: auto;
+    margin: auto;
+  }
+
+  .steps {
+    gap: 0;
+  }
+
+  .steps .index {
+    width: 6vw;
+    height: 6vw;
+    font-size: 4.2vw;
+    border-radius: 1vw;
+    margin-inline: 4vw;
+  }
+
+  .step-text {
+    width: auto;
+    margin-inline: 4vw;
+  }
+
+  .step-title {
+    font-size: 3.2vw;
+  }
+  .step-desc {
+    font-size: 2.4vw;
+  }
+
+  .store-image {
+    height: 8vw;
+    margin: 8px;
+  }
 }

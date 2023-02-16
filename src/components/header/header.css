@@ -21,7 +21,8 @@
   margin-inline-start: 12vw;
   height: 3em;
   background-color: white !important;
-  border-radius: 15px;
+  border-radius: 0.8vw;
+  color: #3580ff !important;
   color: #3580ff !important;
   font-size: 1.6rem;
   font-weight: 600 !important;
@@ -67,7 +68,7 @@
 
 @media screen and (max-width: 1280px) {
   .sign-in {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 

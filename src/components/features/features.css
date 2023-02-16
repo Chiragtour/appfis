@@ -356,6 +356,7 @@
   .slider-button-wrap {
     display: block;
     text-align: center;
+    margin-top: 2vh;
   }
 
   .slider-button {
